@@ -1,3 +1,8 @@
+import dotenv from "dotenv";
+
+dotenv.config();
+import "./src/database"; // Aqui automaticamente chama o arquivo /src/database/index.js
+
 import express from "express";
 import homeRoutes from "./src/routes/homeRoutes";
 
